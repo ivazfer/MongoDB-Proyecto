@@ -1,0 +1,1024 @@
+{
+  "ejercicios": [
+    {
+      "_id": {
+        "$oid": "507f1f77bcf86cd799439011"
+      },
+      "id": 5,
+      "activo": true,
+      "puntuacion": 4.8,
+      "series_recomendadas": 4,
+      "fecha_creacion": {
+        "$date": "2024-01-15T08:00:00Z"
+      },
+      "imagen_miniatura": null,
+      "etiquetas": [
+        "pecho",
+        "fuerza",
+        "compuesto",
+        "barra"
+      ],
+      "historial_pesos": [
+        60.0,
+        70.5,
+        80.0,
+        85.5
+      ],
+      "nombre": {
+        "identificador": "press-de-banca",
+        "visible": "Press de banca"
+      },
+      "descripcion": {
+        "resumen": "Este es un ejercicio para el pecho.",
+        "nivel_dificultad": "intermedio",
+        "duracion_estimada_minutos": 20
+      },
+      "clasificacion": {
+        "tipo": {
+          "nombre": "compuesto"
+        }
+      },
+      "musculos": {
+        "principal": {
+          "nombre": "pecho"
+        },
+        "secundarios": [
+          {
+            "nombre": "triceps"
+          },
+          {
+            "nombre": "hombros"
+          }
+        ]
+      },
+      "material": {
+        "equipo": [
+          {
+            "elemento": {
+              "nombre": "banco",
+              "tipo": "soporte"
+            }
+          },
+          {
+            "elemento": {
+              "nombre": "barra",
+              "tipo": "peso libre"
+            }
+          }
+        ]
+      },
+      "estadisticas": {
+        "veces_realizado": 152,
+        "ultimo_peso_kg": 85.5,
+        "record_personal_kg": 100.0,
+        "porcentaje_progreso": 17.5
+      },
+      "ejecucion": {
+        "pasos": [
+          {
+            "paso": {
+              "numero": 1,
+              "texto": "Tumbate en un banco plano con los pies apoyados en el suelo y la espalda apoyada en el banco."
+            }
+          },
+          {
+            "paso": {
+              "numero": 2,
+              "texto": "Agarra la barra un poco mas abierta que la anchura de los hombros."
+            }
+          },
+          {
+            "paso": {
+              "numero": 3,
+              "texto": "Eleva la barra por encima del cuerpo y colócala sobre la parte media del pecho; esta es la posicion inicial."
+            }
+          },
+          {
+            "paso": {
+              "numero": 4,
+              "texto": "Baja la barra hasta que toque ligeramente el pecho."
+            }
+          },
+          {
+            "paso": {
+              "numero": 5,
+              "texto": "Empuja la barra hacia arriba hasta extender completamente los brazos."
+            }
+          },
+          {
+            "paso": {
+              "numero": 6,
+              "texto": "Vuelve a la posicion inicial."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "_id": {
+        "$oid": "507f1f77bcf86cd799439012"
+      },
+      "id": 10,
+      "activo": true,
+      "puntuacion": 4.2,
+      "series_recomendadas": 3,
+      "fecha_creacion": {
+        "$date": "2024-02-10T09:30:00Z"
+      },
+      "imagen_miniatura": null,
+      "etiquetas": [
+        "triceps",
+        "aislamiento",
+        "mancuernas"
+      ],
+      "historial_pesos": [
+        10.0,
+        12.5,
+        15.0
+      ],
+      "nombre": {
+        "identificador": "press-tate",
+        "visible": "Press Tate"
+      },
+      "descripcion": {
+        "resumen": "Este es un ejercicio avanzado para triceps que trabaja el musculo de forma diferente a otros ejercicios.",
+        "nivel_dificultad": "avanzado",
+        "duracion_estimada_minutos": 15
+      },
+      "clasificacion": {
+        "tipo": {
+          "nombre": "aislamiento"
+        }
+      },
+      "musculos": {
+        "principal": {
+          "nombre": "triceps"
+        },
+        "secundarios": []
+      },
+      "material": {
+        "equipo": [
+          {
+            "elemento": {
+              "nombre": "mancuerna",
+              "tipo": "peso libre"
+            }
+          }
+        ]
+      },
+      "estadisticas": {
+        "veces_realizado": 43,
+        "ultimo_peso_kg": 15.0,
+        "record_personal_kg": 18.0,
+        "porcentaje_progreso": 20.0
+      },
+      "ejecucion": {
+        "pasos": [
+          {
+            "paso": {
+              "numero": 1,
+              "texto": "Tumbate en un banco con la cabeza en un extremo y los pies firmemente apoyados en el suelo."
+            }
+          },
+          {
+            "paso": {
+              "numero": 2,
+              "texto": "Sujeta una mancuerna en cada mano con las palmas orientadas hacia los pies."
+            }
+          },
+          {
+            "paso": {
+              "numero": 3,
+              "texto": "Contrae el abdomen y mantén la espalda apoyada en el banco mientras llevas las pesas al centro del pecho."
+            }
+          },
+          {
+            "paso": {
+              "numero": 4,
+              "texto": "Sin mover los codos, eleva lentamente los brazos hacia arriba y hacia fuera contrayendo los triceps."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "_id": {
+        "$oid": "507f1f77bcf86cd799439013"
+      },
+      "id": 15,
+      "activo": false,
+      "puntuacion": 3.5,
+      "series_recomendadas": 2,
+      "fecha_creacion": {
+        "$date": "2024-03-01T07:00:00Z"
+      },
+      "imagen_miniatura": null,
+      "etiquetas": [
+        "cuello",
+        "isometrico",
+        "calentamiento",
+        "peso corporal"
+      ],
+      "historial_pesos": [],
+      "nombre": {
+        "identificador": "flexion-extension-estatica-del-cuello",
+        "visible": "Flexion y extension estatica del cuello"
+      },
+      "descripcion": {
+        "resumen": "Ejercicio para fortalecer o calentar la parte delantera y trasera del cuello.",
+        "nivel_dificultad": "principiante",
+        "duracion_estimada_minutos": 5
+      },
+      "clasificacion": {
+        "tipo": {
+          "nombre": "isometrico"
+        }
+      },
+      "musculos": {
+        "principal": {
+          "nombre": "extensores y flexores del cuello"
+        },
+        "secundarios": []
+      },
+      "material": {
+        "equipo": [
+          {
+            "elemento": {
+              "nombre": "cuerpo",
+              "tipo": "peso corporal"
+            }
+          }
+        ]
+      },
+      "estadisticas": {
+        "veces_realizado": 8,
+        "ultimo_peso_kg": 0,
+        "record_personal_kg": 0,
+        "porcentaje_progreso": 0.0
+      },
+      "ejecucion": {
+        "pasos": [
+          {
+            "paso": {
+              "numero": 1,
+              "texto": "Colocate de pie o sentado con la cabeza en posicion neutral."
+            }
+          },
+          {
+            "paso": {
+              "numero": 2,
+              "texto": "Pon ambas manos sobre la frente."
+            }
+          },
+          {
+            "paso": {
+              "numero": 3,
+              "texto": "Empuja la cabeza contra las manos y contrae los musculos del cuello."
+            }
+          },
+          {
+            "paso": {
+              "numero": 4,
+              "texto": "Evita que la cabeza se desplace hacia delante y mantén la posicion al menos 30 segundos."
+            }
+          },
+          {
+            "paso": {
+              "numero": 5,
+              "texto": "Repite colocando las manos en la parte posterior de la cabeza."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "_id": {
+        "$oid": "507f1f77bcf86cd799439014"
+      },
+      "id": 20,
+      "activo": true,
+      "puntuacion": 3.9,
+      "series_recomendadas": 2,
+      "fecha_creacion": {
+        "$date": "2024-03-15T10:00:00Z"
+      },
+      "imagen_miniatura": null,
+      "etiquetas": [
+        "cuello",
+        "isometrico",
+        "lateral"
+      ],
+      "historial_pesos": [],
+      "nombre": {
+        "identificador": "flexion-lateral-estatica-del-cuello",
+        "visible": "Flexion lateral estatica del cuello"
+      },
+      "descripcion": {
+        "resumen": "Ejercicio para fortalecer o calentar los flexores laterales del cuello.",
+        "nivel_dificultad": "principiante",
+        "duracion_estimada_minutos": 5
+      },
+      "clasificacion": {
+        "tipo": {
+          "nombre": "isometrico"
+        }
+      },
+      "musculos": {
+        "principal": {
+          "nombre": "flexores laterales del cuello"
+        },
+        "secundarios": []
+      },
+      "material": {
+        "equipo": [
+          {
+            "elemento": {
+              "nombre": "cuerpo",
+              "tipo": "peso corporal"
+            }
+          }
+        ]
+      },
+      "estadisticas": {
+        "veces_realizado": 5,
+        "ultimo_peso_kg": 0,
+        "record_personal_kg": 0,
+        "porcentaje_progreso": 0.0
+      },
+      "ejecucion": {
+        "pasos": [
+          {
+            "paso": {
+              "numero": 1,
+              "texto": "Colocate de pie o sentado con la cabeza en posicion neutral."
+            }
+          },
+          {
+            "paso": {
+              "numero": 2,
+              "texto": "Pon la mano izquierda en el lado izquierdo de la cabeza, por encima de la oreja."
+            }
+          },
+          {
+            "paso": {
+              "numero": 3,
+              "texto": "Empuja la cabeza contra la mano sin moverla."
+            }
+          },
+          {
+            "paso": {
+              "numero": 4,
+              "texto": "Repite con la mano derecha en el lado derecho de la cabeza."
+            }
+          }
+        ],
+        "consejos": [
+          {
+            "consejo": {
+              "texto": "Mantén la barbilla en un angulo aproximado de 90 grados respecto al cuello."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "_id": {
+        "$oid": "507f1f77bcf86cd799439015"
+      },
+      "id": 25,
+      "activo": true,
+      "puntuacion": 4.5,
+      "series_recomendadas": 4,
+      "fecha_creacion": {
+        "$date": "2024-04-01T11:00:00Z"
+      },
+      "imagen_miniatura": null,
+      "etiquetas": [
+        "hombros",
+        "maquina",
+        "aislamiento"
+      ],
+      "historial_pesos": [
+        30.0,
+        35.0,
+        40.0,
+        45.0,
+        50.0
+      ],
+      "nombre": {
+        "identificador": "press-de-hombros-en-maquina-sentado",
+        "visible": "Press de hombros en maquina sentado"
+      },
+      "descripcion": {
+        "resumen": "Este es un ejercicio para fortalecer los hombros.",
+        "nivel_dificultad": "intermedio",
+        "duracion_estimada_minutos": 18
+      },
+      "clasificacion": {
+        "tipo": {
+          "nombre": "aislamiento"
+        }
+      },
+      "musculos": {
+        "principal": {
+          "nombre": "hombros"
+        },
+        "secundarios": [
+          {
+            "nombre": "triceps"
+          }
+        ]
+      },
+      "material": {
+        "equipo": [
+          {
+            "elemento": {
+              "nombre": "maquina",
+              "tipo": "maquina guiada"
+            }
+          }
+        ]
+      },
+      "estadisticas": {
+        "veces_realizado": 67,
+        "ultimo_peso_kg": 50.0,
+        "record_personal_kg": 55.0,
+        "porcentaje_progreso": 10.0
+      },
+      "ejecucion": {
+        "pasos": [
+          {
+            "paso": {
+              "numero": 1,
+              "texto": "Sientate erguido con la espalda apoyada en el respaldo y el abdomen contraido."
+            }
+          },
+          {
+            "paso": {
+              "numero": 2,
+              "texto": "Coloca las manos en las barras y empuja hacia arriba con un movimiento suave, extendiendo los brazos sin bloquearlos."
+            }
+          },
+          {
+            "paso": {
+              "numero": 3,
+              "texto": "Haz una breve pausa arriba y baja las barras de forma controlada hasta la posicion inicial."
+            }
+          }
+        ],
+        "consejos": [
+          {
+            "consejo": {
+              "texto": "Asegurate de ajustar el asiento y las barras para mantener una postura correcta."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "_id": {
+        "$oid": "507f1f77bcf86cd799439016"
+      },
+      "id": 30,
+      "activo": true,
+      "puntuacion": 4.7,
+      "series_recomendadas": 4,
+      "fecha_creacion": {
+        "$date": "2024-04-10T08:30:00Z"
+      },
+      "imagen_miniatura": null,
+      "etiquetas": [
+        "hombros",
+        "triceps",
+        "barra",
+        "compuesto"
+      ],
+      "historial_pesos": [
+        40.0,
+        50.0,
+        60.0
+      ],
+      "nombre": {
+        "identificador": "press-militar-sentado",
+        "visible": "Press militar sentado"
+      },
+      "descripcion": {
+        "resumen": "Ejercicio para fortalecer hombros y triceps.",
+        "nivel_dificultad": "intermedio",
+        "duracion_estimada_minutos": 20
+      },
+      "clasificacion": {
+        "tipo": {
+          "nombre": "compuesto"
+        }
+      },
+      "musculos": {
+        "principal": {
+          "nombre": "hombros"
+        },
+        "secundarios": [
+          {
+            "nombre": "triceps"
+          }
+        ]
+      },
+      "material": {
+        "equipo": [
+          {
+            "elemento": {
+              "nombre": "barra",
+              "tipo": "peso libre"
+            }
+          },
+          {
+            "elemento": {
+              "nombre": "banco",
+              "tipo": "soporte"
+            }
+          }
+        ]
+      },
+      "estadisticas": {
+        "veces_realizado": 90,
+        "ultimo_peso_kg": 60.0,
+        "record_personal_kg": 70.0,
+        "porcentaje_progreso": 16.7
+      },
+      "ejecucion": {
+        "pasos": [
+          {
+            "paso": {
+              "numero": 1,
+              "texto": "Sientate en el banco con la espalda recta, el abdomen contraido y los pies orientados hacia delante."
+            }
+          },
+          {
+            "paso": {
+              "numero": 2,
+              "texto": "Agarra la barra con las palmas hacia fuera y las manos separadas al ancho de los hombros."
+            }
+          },
+          {
+            "paso": {
+              "numero": 3,
+              "texto": "Con la barra delante de la cabeza, empuja hacia arriba extendiendo los brazos sin bloquearlos."
+            }
+          },
+          {
+            "paso": {
+              "numero": 4,
+              "texto": "Haz una pausa arriba y baja la barra de forma controlada hasta la posicion inicial."
+            }
+          }
+        ],
+        "consejos": [
+          {
+            "consejo": {
+              "texto": "Procura que caderas, rodillas y tobillos formen angulos de 90 grados para mejorar la postura."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "_id": {
+        "$oid": "507f1f77bcf86cd799439017"
+      },
+      "id": 35,
+      "activo": true,
+      "puntuacion": 4.0,
+      "series_recomendadas": 3,
+      "fecha_creacion": {
+        "$date": "2024-05-01T09:00:00Z"
+      },
+      "imagen_miniatura": null,
+      "etiquetas": [
+        "trapecio",
+        "mancuernas",
+        "aislamiento"
+      ],
+      "historial_pesos": [
+        20.0,
+        25.0,
+        30.0
+      ],
+      "nombre": {
+        "identificador": "encogimientos-de-hombros",
+        "visible": "Encogimientos de hombros"
+      },
+      "descripcion": {
+        "resumen": "Ejercicio para fortalecer el trapecio.",
+        "nivel_dificultad": "principiante",
+        "duracion_estimada_minutos": 12
+      },
+      "clasificacion": {
+        "tipo": {
+          "nombre": "aislamiento"
+        }
+      },
+      "musculos": {
+        "principal": {
+          "nombre": "trapecio"
+        },
+        "secundarios": []
+      },
+      "material": {
+        "equipo": [
+          {
+            "elemento": {
+              "nombre": "mancuernas",
+              "tipo": "peso libre"
+            }
+          }
+        ]
+      },
+      "estadisticas": {
+        "veces_realizado": 34,
+        "ultimo_peso_kg": 30.0,
+        "record_personal_kg": 35.0,
+        "porcentaje_progreso": 16.7
+      },
+      "ejecucion": {
+        "pasos": [
+          {
+            "paso": {
+              "numero": 1,
+              "texto": "Colocate de pie con los pies separados al ancho de los hombros y una ligera flexion de rodillas."
+            }
+          },
+          {
+            "paso": {
+              "numero": 2,
+              "texto": "Sujeta una mancuerna en cada mano con los brazos a los lados."
+            }
+          },
+          {
+            "paso": {
+              "numero": 3,
+              "texto": "Baja los hombros todo lo posible."
+            }
+          },
+          {
+            "paso": {
+              "numero": 4,
+              "texto": "Con los brazos rectos, eleva ambos hombros hacia las orejas."
+            }
+          },
+          {
+            "paso": {
+              "numero": 5,
+              "texto": "Mantén la posicion un instante y desciende de forma controlada."
+            }
+          }
+        ],
+        "consejos": [
+          {
+            "consejo": {
+              "texto": "No realices este ejercicio si tienes dolor de cuello o de hombros."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "_id": {
+        "$oid": "507f1f77bcf86cd799439018"
+      },
+      "id": 40,
+      "activo": true,
+      "puntuacion": 4.9,
+      "series_recomendadas": 4,
+      "fecha_creacion": {
+        "$date": "2024-05-20T10:00:00Z"
+      },
+      "imagen_miniatura": null,
+      "etiquetas": [
+        "hombros",
+        "triceps",
+        "mancuernas",
+        "rotacion"
+      ],
+      "historial_pesos": [
+        8.0,
+        10.0,
+        12.5,
+        15.0
+      ],
+      "nombre": {
+        "identificador": "press-arnold",
+        "visible": "Press Arnold"
+      },
+      "descripcion": {
+        "resumen": "Ejercicio para fortalecer hombros y triceps.",
+        "nivel_dificultad": "intermedio",
+        "duracion_estimada_minutos": 18
+      },
+      "clasificacion": {
+        "tipo": {
+          "nombre": "aislamiento"
+        }
+      },
+      "musculos": {
+        "principal": {
+          "nombre": "hombros"
+        },
+        "secundarios": [
+          {
+            "nombre": "triceps"
+          }
+        ]
+      },
+      "material": {
+        "equipo": [
+          {
+            "elemento": {
+              "nombre": "mancuernas",
+              "tipo": "peso libre"
+            }
+          }
+        ]
+      },
+      "estadisticas": {
+        "veces_realizado": 55,
+        "ultimo_peso_kg": 15.0,
+        "record_personal_kg": 18.0,
+        "porcentaje_progreso": 20.0
+      },
+      "ejecucion": {
+        "pasos": [
+          {
+            "paso": {
+              "numero": 1,
+              "texto": "Sientate en un banco plano con los pies hacia delante y el abdomen contraido."
+            }
+          },
+          {
+            "paso": {
+              "numero": 2,
+              "texto": "Sujeta una mancuerna en cada mano con las palmas orientadas hacia el cuerpo."
+            }
+          },
+          {
+            "paso": {
+              "numero": 3,
+              "texto": "Flexiona los codos a 90 grados y eleva los brazos hasta la altura de los hombros."
+            }
+          },
+          {
+            "paso": {
+              "numero": 4,
+              "texto": "Empuja las mancuernas hacia arriba mientras extiendes los codos y giras los antebrazos hasta que las palmas miren hacia fuera."
+            }
+          },
+          {
+            "paso": {
+              "numero": 5,
+              "texto": "Acerca las mancuernas sin bloquear completamente los codos."
+            }
+          },
+          {
+            "paso": {
+              "numero": 6,
+              "texto": "Baja las mancuernas de forma controlada hasta la posicion inicial."
+            }
+          }
+        ],
+        "consejos": [
+          {
+            "consejo": {
+              "texto": "Empieza con poco peso para perfeccionar la tecnica."
+            }
+          },
+          {
+            "consejo": {
+              "texto": "No hagas este ejercicio si tienes dolor de hombro."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "_id": {
+        "$oid": "507f1f77bcf86cd799439019"
+      },
+      "id": 45,
+      "activo": true,
+      "puntuacion": 4.1,
+      "series_recomendadas": 3,
+      "fecha_creacion": {
+        "$date": "2024-06-05T08:00:00Z"
+      },
+      "imagen_miniatura": null,
+      "etiquetas": [
+        "hombros",
+        "pecho",
+        "antebrazos",
+        "mancuernas"
+      ],
+      "historial_pesos": [
+        6.0,
+        8.0,
+        10.0
+      ],
+      "nombre": {
+        "identificador": "elevaciones-frontales",
+        "visible": "Elevaciones frontales"
+      },
+      "descripcion": {
+        "resumen": "Ejercicio para fortalecer hombros, pecho y antebrazos.",
+        "nivel_dificultad": "principiante",
+        "duracion_estimada_minutos": 12
+      },
+      "clasificacion": {
+        "tipo": {
+          "nombre": "aislamiento"
+        }
+      },
+      "musculos": {
+        "principal": {
+          "nombre": "hombros"
+        },
+        "secundarios": [
+          {
+            "nombre": "antebrazo"
+          },
+          {
+            "nombre": "pecho"
+          }
+        ]
+      },
+      "material": {
+        "equipo": [
+          {
+            "elemento": {
+              "nombre": "mancuernas",
+              "tipo": "peso libre"
+            }
+          }
+        ]
+      },
+      "estadisticas": {
+        "veces_realizado": 28,
+        "ultimo_peso_kg": 10.0,
+        "record_personal_kg": 12.0,
+        "porcentaje_progreso": 20.0
+      },
+      "ejecucion": {
+        "pasos": [
+          {
+            "paso": {
+              "numero": 1,
+              "texto": "Colocate de pie con los pies separados al ancho de los hombros, el abdomen contraido y las rodillas ligeramente flexionadas."
+            }
+          },
+          {
+            "paso": {
+              "numero": 2,
+              "texto": "Sujeta una mancuerna en cada mano con las palmas hacia abajo."
+            }
+          },
+          {
+            "paso": {
+              "numero": 3,
+              "texto": "Comienza con las mancuernas a la altura de la cintura."
+            }
+          },
+          {
+            "paso": {
+              "numero": 4,
+              "texto": "Eleva un brazo al frente manteniendo el codo ligeramente flexionado hasta la altura del hombro."
+            }
+          },
+          {
+            "paso": {
+              "numero": 5,
+              "texto": "Haz una pausa breve y baja el brazo de forma controlada hasta la posicion inicial."
+            }
+          },
+          {
+            "paso": {
+              "numero": 6,
+              "texto": "Repite con el otro brazo."
+            }
+          }
+        ],
+        "consejos": [
+          {
+            "consejo": {
+              "texto": "No realices este ejercicio si tienes dolor en el hombro, codo o muñeca."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "_id": {
+        "$oid": "507f1f77bcf86cd799439020"
+      },
+      "id": 50,
+      "activo": true,
+      "puntuacion": 4.6,
+      "series_recomendadas": 4,
+      "fecha_creacion": {
+        "$date": "2024-06-20T09:00:00Z"
+      },
+      "imagen_miniatura": null,
+      "etiquetas": [
+        "hombros",
+        "triceps",
+        "pecho",
+        "mancuernas"
+      ],
+      "historial_pesos": [
+        10.0,
+        12.5,
+        15.0,
+        17.5,
+        20.0
+      ],
+      "nombre": {
+        "identificador": "press-de-hombros-con-mancuernas",
+        "visible": "Press de hombros con mancuernas"
+      },
+      "descripcion": {
+        "resumen": "Ejercicio para fortalecer hombros, pecho y triceps.",
+        "nivel_dificultad": "intermedio",
+        "duracion_estimada_minutos": 18
+      },
+      "clasificacion": {
+        "tipo": {
+          "nombre": "aislamiento"
+        }
+      },
+      "musculos": {
+        "principal": {
+          "nombre": "hombros"
+        },
+        "secundarios": [
+          {
+            "nombre": "triceps"
+          },
+          {
+            "nombre": "pecho"
+          }
+        ]
+      },
+      "material": {
+        "equipo": [
+          {
+            "elemento": {
+              "nombre": "mancuernas",
+              "tipo": "peso libre"
+            }
+          }
+        ]
+      },
+      "estadisticas": {
+        "veces_realizado": 71,
+        "ultimo_peso_kg": 20.0,
+        "record_personal_kg": 24.0,
+        "porcentaje_progreso": 20.0
+      },
+      "ejecucion": {
+        "pasos": [
+          {
+            "paso": {
+              "numero": 1,
+              "texto": "Sientate en un banco con el abdomen contraido y sujeta una mancuerna en cada mano con las palmas hacia delante."
+            }
+          },
+          {
+            "paso": {
+              "numero": 2,
+              "texto": "Comienza con los brazos a la altura de los hombros."
+            }
+          },
+          {
+            "paso": {
+              "numero": 3,
+              "texto": "Extiende los brazos y eleva las mancuernas por encima de la cabeza."
+            }
+          },
+          {
+            "paso": {
+              "numero": 4,
+              "texto": "En la parte alta del movimiento, acerca ligeramente los brazos."
+            }
+          },
+          {
+            "paso": {
+              "numero": 5,
+              "texto": "Haz una pausa breve y baja las mancuernas de forma controlada hasta la posicion inicial."
+            }
+          },
+          {
+            "paso": {
+              "numero": 6,
+              "texto": "Repite."
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

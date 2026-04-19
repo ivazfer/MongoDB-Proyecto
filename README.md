@@ -1,21 +1,12 @@
 https://github.com/everkinetic/data/blob/main/exercises.json
 
-Cambios realizados
+Este documento ya fue editado para un proyecto de lenguaje de marcas.
 
-Se ha reestructurado el archivo JSON original para hacerlo más claro, completo y organizado. Ahora parte de una lista principal de ejercicios, donde cada uno es un objeto independiente con bloques internos como nombre, descripción, clasificación, músculos, material y ejecución.
+Estructura del JSON original
+Cada ejercicio incluye un id único, un nombre con su identificador interno y su nombre visible, una descripcion con un resumen del ejercicio, una clasificacion con el tipo de ejercicio, los musculos trabajados (principal y secundarios), el material necesario y la ejecucion con los pasos a seguir y consejos opcionales.
 
-Además, se han traducido los campos al español para mantener uniformidad, se han eliminado datos innecesarios y se ha aumentado la complejidad mediante una estructura jerárquica con varios niveles, sustituyendo datos simples por objetos y subobjetos relacionados.
+Cambios realizados para MongoDB
 
-Estructura del JSON
+Se añadieron los campos _id (ObjectId), activo (Boolean), puntuacion (Double), series_recomendadas (Integer), fecha_creacion (Date) e imagen_miniatura (Null). También se incorporaron etiquetas e historial_pesos como arrays, y estadisticas como documento embebido con datos de rendimiento como el peso récord o el progreso acumulado.
 
-id: identificador único del ejercicio.
-nombre: objeto con el identificador interno y el nombre visible.
-descripcion: objeto con un resumen descriptivo.
-clasificacion: objeto que indica el tipo de ejercicio.
-musculos: objeto con el músculo principal y los secundarios.
-material: objeto con el equipamiento necesario.
-ejecucion: objeto con los pasos de realización y, a veces, consejos extra.
-
-Ejercicios
-
-
+Por último, el campo descripcion se amplió con nivel_dificultad y duracion_estimada_minutos para facilitar consultas más específicas.
