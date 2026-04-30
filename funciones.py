@@ -113,4 +113,16 @@ def insertar_varios(col):
     resultado = col.insert_many(nuevos)
     print("Ejercicios insertados, ids:", resultado.inserted_ids)
 
+def eliminar_uno(col):
+    nombre = input("Nombre del ejercicio a eliminar (identificador): ")
+    resultado = col.delete_one({"nombre.identificador": nombre})
+    if resultado.deleted_count > 0:
+        print("Ejercicio eliminado correctamente.")
+    else:
+        print("No se encontró ningún ejercicio con ese identificador.")
+
+def eliminar_varios(col):
+    nivel = input("Eliminar todos los ejercicios con nivel de dificultad: ")
+    resultado = col.delete_many({"descripcion.nivel_dificultad": nivel})
+    print("Ejercicios eliminados:", resultado.deleted_count)
 
