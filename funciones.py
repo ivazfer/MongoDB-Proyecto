@@ -125,4 +125,67 @@ def eliminar_varios(col):
     nivel = input("Eliminar todos los ejercicios con nivel de dificultad: ")
     resultado = col.delete_many({"descripcion.nivel_dificultad": nivel})
     print("Ejercicios eliminados:", resultado.deleted_count)
+    
+    
+def actualizar_uno(col):
+    nombre = input("Identificador del ejercicio a actualizar: ")
+    nueva_puntuacion = float(input("Nueva puntuación: "))
+    resultado = col.update_one(
+        {"nombre.identificador": nombre},
+        {"$set": {"puntuacion": nueva_puntuacion}}
+    )
+    if resultado.matched_count > 0:
+        print("Ejercicio actualizado correctamente.")
+    else:
+        print("No se encontró el ejercicio.")
+    
+
+def actualizar_varios(col):
+    resultado = col.update_many(
+        {"descripcion.nivel_dificultad": "principiante"},
+        {"$set": {"activo": False}}
+    )
+    print("Ejercicios actualizados:", resultado.modified_count)
+
+def reemplazar_uno(col):
+    nombre = input("Identificador del ejercicio a reemplazar: ")
+    nuevo_documento = {
+        "id": 9999,
+        "activo": True,
+        "puntuacion": 5.0,
+        "series_recomendadas": 5,
+        "imagen_miniatura": None,
+        "etiquetas": ["test", "reemplazo"],
+        "historial_pesos": [10.0, 20.0],
+        "nombre": {
+            "identificador": nombre,
+            "visible": "Ejercicio reemplazado"
+        },
+        "descripcion": {
+            "resumen": "Este ejercicio fue reemplazado desde el programa.",
+            "nivel_dificultad": "avanzado",
+            "duracion_estimada_minutos": 30
+        },
+        "clasificacion": {"tipo": {"nombre": "compuesto"}},
+        "musculos": {
+            "principal": {"nombre": "cuerpo completo"},
+            "secundarios": []
+        },
+        "material": {
+            "equipo": [{"elemento": {"nombre": "ninguno", "tipo": "peso corporal"}}]
+        },
+        "estadisticas": {
+            "veces_realizado": 1,
+            "ultimo_peso_kg": 20.0,
+            "record_personal_kg": 20.0,
+            "porcentaje_progreso": 0.0
+        }
+    }
+    resultado = col.replace_one({"nombre.identificador": nombre}, nuevo_documento)
+    if resultado.matched_count > 0:
+        print("Ejercicio reemplazado correctamente.")
+    else:
+        print("No se encontró el ejercicio.")
+
+
 
